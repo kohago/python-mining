@@ -1,9 +1,13 @@
 # python_mining
-##use eclipse
-	install pydev from eclipse marketplace
-	set pydev(python interpreter) at eclipse 
+
+Set eclipse
+
+- install pydev from eclipse marketplace
+- set pydev(python interpreter) at eclipse 
 	Hello world
-##upgrade pip,install mining packages
+	
+Upgrade pip,install mining packages
+
 	python -m pip install --upgrade pip
 	python -m pip install numpy
 	python -m pip install scipy
@@ -12,6 +16,7 @@
 	python -m pip install scikit-learn
 	python -m pip install statsmodels
 	python -m pip install gensim
+	
 when errors happen at windows,maybe some VC++ compile tools are needed.can use whl files here: https://www.lfd.uci.edu/%7Egohlke/pythonlibs/
 
 
