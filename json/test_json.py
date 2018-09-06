@@ -1,3 +1,4 @@
+
 #import boto3
 from gzip import GzipFile
 import io
@@ -70,7 +71,8 @@ def do_big_two():
     with open('two_big.json','w') as outFile:
         print('begin to read zip file by streaming')
         for key,value in big_file_stream(unzipFile):
-           outFile.write("\n".join(simplejson.dumps(value)))
+            #uft-8
+           outFile.write("\n".join(simplejson.dumps(value,ensure_ascii=False, encoding='utf8')))
 
     elapsed_time = time.time() - start
     print ("elapsed_time:{0}".format(elapsed_time) + "[sec]")
