@@ -1,3 +1,7 @@
 {
-  "test_hello.py::test_1": true
+  "test_fixture.py::test_1": true,
+  "test_fixture.py::test_2": true,
+  "test_hello.py::test_1": true,
+  "test_mark.py::test_1": true,
+  "test_parametrize.py::test_1[aaa-bbb]": true
 }
