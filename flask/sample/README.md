@@ -7,3 +7,8 @@ $ export FLASK_APP=XX.py
 $ export FLASK_ENV=development
 $ flask.run
 ```
+
+```
+/
+/ POST
+```
