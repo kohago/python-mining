@@ -21,3 +21,7 @@ when errors happen at windows,maybe some VC++ compile tools are needed.can use w
 
 
 	python -m pip install e:/download/statsmodels-0.8.0-cp36-cp36m-win32.whl
+
+- python versions at windows
+   python -V
+   py -V 
