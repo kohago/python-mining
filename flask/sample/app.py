@@ -75,6 +75,9 @@ def post_content():
     db_session.commit()
     return redirect(url_for('all_users'))
 
+# 
+init_db()
 if __name__ == "__main__":
+    #init_db() #=>in here can't create tables!!
     app.debug = True
     app.run(host = '0.0.0.0') # can access from anywhere
