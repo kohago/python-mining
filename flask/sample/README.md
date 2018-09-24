@@ -3,6 +3,7 @@
 
 ```
 How to run:
+$ windows use set instead of export
 $ export FLASK_APP=XX.py
 $ export FLASK_ENV=development
 $ flask.run

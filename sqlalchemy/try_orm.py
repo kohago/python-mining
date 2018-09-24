@@ -2,7 +2,7 @@ from database import init_db,db_session
 from model.user import User
 
 
-#init_db()
+init_db()
 
 user1 = User("hoge1","1Hoge Jim","pw1")
 db_session.add(user1)

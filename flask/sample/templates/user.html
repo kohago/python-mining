@@ -1,0 +1,11 @@
+{% extends "layout.html" %}
+{% block content %}
+<h1>ID : {{user.id}}</h1>
+<div>{{user.name}}</div>
+<div>{{user.fullname}}</div>
+<div>{{user.password}}</div>
+
+<br>
+<br>
+<li><a href="{{url_for('all_users')}}"> back</a></li>
+{% endblock %}

@@ -1,0 +1,23 @@
+{% extends "layout.html" %}
+{% block content %}
+<ul>
+    {% for user in users %}
+    <li><a href="{{url_for('show_user',name = user.name)}}"> {{user.name}}&nbsp;{{user.fullname}}</a></li>
+    {% endfor%}
+</ul>
+<br>
+<br>
+<br>
+<form action="/user" method="post" class="form-inline">
+    <label for="name">Name</label>
+    <input type="text" class="form-control" id="name" name="name" placeholder="name">
+   
+    <label for="fullname">FullName</label>
+    <input type="text" class="form-control" id="fullname" name="fullname" placeholder="FullName">
+   
+    <label for="password">Password</label>
+    <input type="text" class="form-control" id="password" name="password" placeholder="password">
+   
+    <button type="submit" class="btn btn-default">add user</button>
+  </form>
+{% endblock %}
