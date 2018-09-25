@@ -1,7 +1,7 @@
 #python3 -m pytest -m small/larget test_mark.py
 # => 1 passed, 2 deselected in 5.02 seconds
 
-import  pytest
+import pytest
 import time
 
 @pytest.mark.small
