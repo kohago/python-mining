@@ -9,7 +9,7 @@ class Animal(metaclass = ABCMeta):
 #set superclass to be child class parameter
 class Cat(Animal):
     def sound(self):
-        return "---Meow---"
+        return "---meow---"
 
 # # not define necessary method
 # # TypeError: Can't instantiate abstract class Dog with abstract methods sound
